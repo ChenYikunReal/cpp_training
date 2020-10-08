@@ -10,11 +10,13 @@ int main() {
     ofstream outStream;
     inStream.open("input.txt");
     if (inStream.fail()) {
+        cout << "输入文件打开失败";
         exit(1);
     }
     // 追加
     outStream.open("output.txt", ios::app);
     if (outStream.fail()) {
+        cout << "输出文件打开失败";
         inStream.close();
         exit(1);
     }
