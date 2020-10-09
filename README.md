@@ -3,6 +3,7 @@
 ![在这里插入图片描述](https://github.com/ChenYikunReal/cpp_training/blob/master/images/cpp-c.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg5NjMxOA==,size_16,color_FFFFFF,t_70)
 
 ## C++笔记
+
 1. 赋值语句会被判定为true
 ```cpp
 int a = 0;
@@ -80,6 +81,7 @@ string generateStr() {
 12. setf()格式化标志：
 
 | 标志 | 说明 |
+|:---:|:---:|
 | ios::fixed | 不使用科学计数法 |
 | ios::scientific | 使用科学计数法 |
 | ios::showpoint | 始终显示浮点数的小数点和尾随的0 |
